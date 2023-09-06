@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+            crossorigin="anonymous"
+        ></script>
+        <link rel="icon" href="../../assets/images/favicon.png" />
+        <title>SydeCloud</title>
+    </head>
+    <body>
+        <video
+            autoplay
+            muted
+            loop
+            id="video-background"
+            class="w-100 h-100 fixed"
+        >
+            <source
+                src="../../assets/images/course-video.mp4"
+                type="video/mp4"
+            />
+        </video>
+        <!-- navbar -->
+        <nav
+            id="navbar"
+            class="navbar navbar-expand-lg sticky-top font-weight-bold"
+        >
+            <div class="container-fluid">
+                <a href="../../products/sydecloud/" class="navbar-brand">
+                    <!-- <img
+                        src="img/sydecloud_logo_putih.png"
+                        alt="logo"
+                        width="100"
+                        height="24"
+                        class="img-fluid"
+                    /> -->
+                    <span> <i class="bi bi-cloud-fill"></i> SydeCloud</span>
+                </a>
+
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                    class="collapse navbar-collapse justify-content-end"
+                    id="navbarNav"
+                >
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a
+                                class="nav-link dropdown-toggle"
+                                href="#"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                            >
+                                About
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../../About/About-Company-Profile/About-Company-Profile.html"
+                                        >Company Profile</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../../About/About-Company-Values/About-Company-Values.html"
+                                        >Company Values</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../../About/About-Code-of-Conduct/About-Code-of-Conduct.html"
+                                        >Code of Conduct</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../../tersmofuse.html"
+                                        >Terms of Use</a
+                                    >
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a
+                                class="nav-link dropdown-toggle"
+                                href="#"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                            >
+                                Products
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../../products/syde-co/"
+                                        >All-In-One</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../../products/spone/"
+                                        >SP-One</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../../products/the-archangel/"
+                                        >Archangel</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../../products/sydechat/"
+                                        >SydeChat</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../../products/sydecloud/"
+                                        >SydeCloud</a
+                                    >
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a
+                                class="nav-link dropdown-toggle"
+                                href="#"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                            >
+                                Blog
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="../../blog/Hal-01.html"
+                                        >Articles</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="https://sydeconewsblog.blogspot.com/"
+                                        >Blogger</a
+                                    >
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- end of navbar -->
+
+        <!-- hero -->
+        <div class="hero text-center px-5 position-relative">
+            <div class="position-absolute top-50 start-50 translate-middle">
+                <img
+                    src="img/sydecloud_logo.png"
+                    alt="sydecloud"
+                    width="75%"
+                    height="50%"
+                />
+                <hr />
+                <div class="text-hero mt-2">
+                    <!-- <h3>Cloud Storage by Sydeco</h3> -->
+                    <a class="btn btn-outline-primary" href="#contact"
+                        >Try Now</a
+                    >
+                    <a class="btn btn-outline-light" href="#features"
+                        >Why Sydecloud?</a
+                    >
+                </div>
+            </div>
+        </div>
+        <!-- end of hero -->
+
+        <!-- features -->
+        <div class="features bg-light" id="features">
+            <section class="drag-drop">
+                <div class="text-center">
+                    <div class="container w-50">
+                        <img
+                            src="img/drag-drop-svgrepo-com.svg"
+                            alt="drag and drop"
+                            width="200"
+                            height="200"
+                        />
+                        <div class="text-feature">
+                            <h4>So <b>EASY</b></h4>
+                            Just drag and drop any file or folder and you're
+                            good to go
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="devices">
+                <div class="text-center">
+                    <div class="container w-50">
+                        <div class="d-flex justify-content-center">
+                            <img
+                                src="img/laptop-svgrepo-com.svg"
+                                alt="logo"
+                                width="150"
+                                height="150"
+                            />
+                            <img
+                                src="img/smartphone-svgrepo-com.svg"
+                                alt="smartphone"
+                                width="150"
+                                height="150"
+                            />
+                            <img
+                                src="img/tablet-svgrepo-com.svg"
+                                alt="tablet"
+                                width="150"
+                                height="150"
+                            />
+                        </div>
+                        <div class="text-feature">
+                            <h4>So <b>Useful</b></h4>
+                            Access your files anywhere, anytime on any devices.
+                            Start your work at the office, terminate it at home,
+                            with Data Recovery, Remote Upload and Online
+                            Document preview.
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="secure">
+                <div class="text-center">
+                    <div class="container w-50">
+                        <img
+                            src="img/shield-check-svgrepo-com.svg"
+                            alt="secure"
+                            width="200"
+                            height="200"
+                        />
+                        <div class="text-feature">
+                            <h4>so <b>Secure</b></h4>
+                            With SydeCloud, not only your data are safe in the
+                            cloud, but also your devices and transmissions.
+                            Thanks to
+                            <b
+                                ><a
+                                    href="../../products/the-archangel/"
+                                    class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+                                    >Archangel</a
+                                ></b
+                            >.
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="sharing">
+                <div class="text-center">
+                    <div class="container w-50">
+                        <img
+                            src="img/cloud-computing-data-7-svgrepo-com.svg"
+                            alt="sharing"
+                            width="200"
+                            height="200"
+                        />
+                        <div class="text-feature">
+                            <h4><b>Share</b> your files</h4>
+                            Share your data with your team mates, and your
+                            friends. Share Download and Upload links and get
+                            their detailed statistics.
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- end of feature -->
+
+        <!-- contact form -->
+        <div id="contact" class="my-5" data-section="section6">
+            <div class="container tm-container-contact">
+                <div class="row">
+                    <div class="text-center col-12">
+                        <h2 class="text-white mb-4">Contact Us</h2>
+                    </div>
+
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <form
+                                class="row g-3"
+                                action="mailto:info@sydecloud.com"
+                                method="get"
+                                name="message SydeChat"
+                                data-netlify="true"
+                            >
+                                <div class="input-group">
+                                    <input
+                                        id="name"
+                                        name="name"
+                                        type="text"
+                                        class="form-control bg-transparent text-light"
+                                        placeholder="Your Name"
+                                        class="tm-input"
+                                        required
+                                    />
+                                </div>
+
+                                <div class="input-group">
+                                    <input
+                                        id="email"
+                                        name="email"
+                                        type="email"
+                                        placeholder="Your Email"
+                                        class="form-control bg-transparent text-light"
+                                        required
+                                    />
+                                </div>
+
+                                <div class="input-group">
+                                    <textarea
+                                        id="message"
+                                        name="message"
+                                        rows="8"
+                                        placeholder="Message"
+                                        class="form-control bg-transparent text-light"
+                                        required
+                                    ></textarea>
+                                </div>
+
+                                <div class="input-group">
+                                    <button
+                                        type="submit"
+                                        class="btn btn-outline-light"
+                                    >
+                                        Submit
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+
+                        <div class="ps-5">
+                            <img
+                                src="../../assets/images/sydeco_WHITE-01.png"
+                                height="auto"
+                                width="80%"
+                                alt="contact-us"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of contact form -->
+
+        <div class="footer py-3 d-flex justify-content-center">
+            <footer class="d-flex text-white">
+                <i class="bi bi-c-circle"></i>
+                <div id="year"></div>
+                <div class="ps-2">PT. Sydeco Indonesia.</div>
+            </footer>
+        </div>
+    </body>
+    <script>
+        const currentYear = new Date().getFullYear();
+        document.getElementById("year").textContent = currentYear;
+    </script>
+</html>
