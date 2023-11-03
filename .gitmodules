@@ -1,0 +1,3 @@
+[submodule "sydeco_update"]
+	path = sydeco_update
+	url = https://github.com/Dhafiyamayo/sydeco_update.git
